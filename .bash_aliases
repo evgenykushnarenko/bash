@@ -9,4 +9,4 @@ alias www='cd /var/www/html/*/public'
 alias mc='sudo mc'
 alias reboot='sudo reboot'
 alias wrs='sudo systemctl restart apache2 && sudo systemctl restart php8.1-fpm' # wrs - Web ReStart
-alias ccat='pygmentize -g -O style=colorful,linenos=1'
+alias ccat='pygmentize -g -O style=github-dark,linenos=1'
