@@ -1,9 +1,9 @@
-alias e='exit'
-alias r='clear && reset && source ~/.bashrc && neofetch'
-alias upd='echo == UPD STARTED == && sudo apt-get update && sudo apt-get upgrade -y && sudo snap refresh && sudo apt autoremove -y && echo ==UPD COMPLETE=='
-alias ..='cd ..'
-alias ...='cd ../..'
-alias reboot='sudo reboot'
+alias e='exit' # EXIT
+alias r='clear && reset && source ~/.bashrc && neofetch' # R
+alias upd='echo == UPD STARTED == && sudo apt-get update && sudo apt-get upgrade -y && sudo snap refresh && sudo apt autoremove -y && echo ==UPD COMPLETE==' # UPD
+alias ..='cd ..' # ..
+alias ...='cd ../..' # ...
+alias reboot='sudo reboot' # REBOOT
 alias h='history'
 alias www='cd /var/www/html/*/public'
 alias mc='sudo mc'
