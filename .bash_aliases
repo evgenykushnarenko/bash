@@ -1,6 +1,6 @@
 alias e='exit'
 alias r='clear && reset && source ~/.bashrc && neofetch'
-alias upd='sudo apt-get update && sudo apt-get upgrade -y && sudo snap refresh && sudo apt autoremove -y && echo ==UPD COMPLETE=='
+alias upd='echo == UPD STARTED == && sudo apt-get update && sudo apt-get upgrade -y && sudo snap refresh && sudo apt autoremove -y && echo ==UPD COMPLETE=='
 alias ..='cd ..'
 alias ...='cd ../..'
 alias reboot='sudo reboot'
