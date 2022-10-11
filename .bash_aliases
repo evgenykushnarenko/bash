@@ -9,4 +9,4 @@ alias www='cd /var/www/html/*/public'
 alias mc='sudo mc'
 alias reboot='sudo reboot'
 alias wrs='sudo systemctl restart apache2 && sudo systemctl restart php8.1-fpm' # wrs - Web ReStart
-alias ccat='pygmentize -g -O style=github-dark,linenos=1'
+alias ccat='pygmentize -g -O style=github-dark,linenos=1' # 1. sudo apt install python3-venv python3-pip 2. pip install Pygments
