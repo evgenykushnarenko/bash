@@ -1,6 +1,7 @@
 alias e='exit' # EXIT
 alias r='clear && reset && source ~/.bashrc && neofetch' # R
-alias upd='echo == UPD STARTED == && sudo apt-get update && sudo apt-get upgrade -y && sudo snap refresh && sudo apt autoremove -y && echo ==UPD COMPLETE==' # UPD
+alias upd='echo == UPD STARTED == && sudo apt-get update && sudo apt-get upgrade -y && sudo snap refresh && sudo apt autoremove -y && python3 -m pip list --outdated --format=json | jq -r '.[] | "\(.name)==\(.latest_version)"' | xargs -n1 pip3 install -U
+&& echo ==UPD COMPLETE==' # UPD
 alias ..='cd ..' # ..
 alias ...='cd ../..' # ...
 alias reboot='sudo reboot' # REBOOT
