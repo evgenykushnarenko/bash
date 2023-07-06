@@ -1,5 +1,5 @@
 alias e='exit' # EXIT
-alias r='clear && reset && source ~/.bashrc && neofetch' # R
+alias r='clear && reset && source ~/.bashrc && screenfetch' # R
 alias upd='echo == UPD STARTED == && sudo apt-get update && sudo apt-get upgrade -y && sudo snap refresh && sudo apt autoremove -y && echo ==UPD COMPLETE==' # UPD
 alias ..='cd ..' # ..
 alias ...='cd ../..' # ...
