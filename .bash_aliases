@@ -12,3 +12,4 @@ alias wrs='sudo systemctl restart apache2 && sudo systemctl restart php8.1-fpm' 
 alias ccat='pygmentize -g -O style=dracula,linenos=1' # 1. sudo apt install python3-venv python3-pip -y 2. pip install Pygments 3. sudo echo 'export PATH="/home/evgeny/.local/bin:$PATH"' >> .bashrc
 alias getalias='sudo wget -O .bash_aliases https://evgn.ru/ba && r && echo ==.bash_aliases UPDATED=='
 alias aliasls='echo == ALIAS LIST == && ccat ~/.bash_aliases | grep alias'
+alias lsl='exa --icons -a -s=mod -r --group-directories-first  --color-scale -lFghH'
